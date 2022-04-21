@@ -4,7 +4,10 @@
 
     $dato = array();
 
-    $dato["01"]="francisco";
-    $dato[1]="sandra";
-    $dato["0001"]="alejandra";
-    $dato[40]="pedro";
+    $dato[1]=array("francisco","Benito","Alcantara",50,"neiva");
+    $dato[2]=array("Bfrancisco","BBenito","BAlcantara","edad"=>20,"Bneiva","colombia");
+    $dato[3]=array("Cfrancisco","CBenito","CAlcantara",30,"Cneiva");
+    $dato[4]=array("Dfrancisco","DBenito","DAlcantara",26,"Dneiva");
+
+    print("edad: ".$dato[2]["edad"]);
+?>
